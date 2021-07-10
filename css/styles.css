@@ -37,7 +37,7 @@ padding: 0 0 4.5rem;
 }
 .nav-link{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4 rem;
+  font-size: 1.3rem;
 }
 
 /* Button section */
@@ -69,6 +69,7 @@ position: relative;
 }
 
 p{
+  font-size: 1.2rem;
   color: #8f8f8f;
 }
 
