@@ -1,0 +1,166 @@
+
+#title{
+  background-color: #e2703a;
+ color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.3rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3rem;
+  font-weight: 600;
+  line-height:1.5;
+}
+h3{
+font-size: 1.7rem;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navigation Bar */
+
+.navbar{
+padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0px 18px;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4 rem;
+}
+
+/* Button section */
+
+.download-button{
+margin: 8% 3% 5% 0%;
+}
+.title-image{
+  width: 80%;
+  transform: rotate(13deg);
+  position: absolute;
+  left: 10%
+}
+.title-icon{
+  color: #bb371a;
+}
+/* Features section */
+
+#features{
+  padding: 7% 10%;
+  background-color:#fff;
+position: relative;
+  z-index:1;
+
+}
+.feature-box{
+  text-align:center;
+  padding:3%
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Icon section */
+
+.icon{
+  color: #f7a440;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #e2703a;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color:  #f7a440;
+  color: #fff;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonials-text{
+
+  width:10%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 0px 115px 0px;
+}
+
+/* Press */
+#press{
+    background-color:  #f7a440;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+  width: 15%;
+  margin:15px 25px 50px;
+}
+
+/* Pricing section*/
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* Call to Action */
+
+#cta{
+  background-color:  #e2703a;
+  color: #fff;
+  padding: 6% 5%;
+  text-align: center;
+}
+.cta-heading{
+  font-size: 3.5rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.download-button-2{
+  margin: 5% 1%;
+}
+/* Footer section */
+
+#footer{
+  padding:7% ;
+  text-align: center;
+}
+.social-media-icons{
+margin: 20px 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 1080px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    }
+
+}
